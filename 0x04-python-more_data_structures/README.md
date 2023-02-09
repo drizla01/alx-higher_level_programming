@@ -3,8 +3,8 @@
 
 -   By Guillaume
 -   Weight: 1
--   Ongoing project - started 11-24-2021, must end by 11-25-2021 (in about 4 hours) - you're done with 0% of tasks.
--   Checker was released at 11-24-2021 12:00 PM
+-   Ongoing project - .
+-   Checker will be release soon. 
 -   QA review fully automated.
 
 Resources
