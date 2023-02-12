@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def print_reversed_list_integer(my_list=[])
+def print_reversed_list_integer(my_list=[]):
    """
 	Description
 	Write a function that prints all integers of a list, in reverse order
@@ -11,5 +11,7 @@ def print_reversed_list_integer(my_list=[])
 		the reverse of list defined
 
    """
-   for element in my_list:
+   new_my_list = reversed.my_list
 
+   for element in new_my_list:
+	print("{:d}".format(element))
