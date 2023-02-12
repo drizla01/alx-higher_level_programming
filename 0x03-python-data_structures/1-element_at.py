@@ -4,7 +4,7 @@ def element_at(my_list, idx):
    """Description
    function that retrieves an element from a list like in C
 
-      Arguments:
+      Parameters:
       		mu_list: the list of element we are require to use
 		idx: index or position of the element
    """
