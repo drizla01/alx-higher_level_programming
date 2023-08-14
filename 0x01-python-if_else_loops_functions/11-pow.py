@@ -9,4 +9,4 @@ def pow(a, b):
     Return:
         value: a ^ b
     """
-    return (a ^ b)
+    return (a ** b)
