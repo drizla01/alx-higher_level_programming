@@ -8,7 +8,7 @@ if __name__ == "__main__":
     else:
         i = 1
         if (argv_len == 1):
-            print("{:d} arguments:".format(argv_len))
+            print("{:d} argument:".format(argv_len))
         else:
             print("{:d} arguments:".format(argv_len))
         for arg in sys.argv[1:]:
