@@ -5,6 +5,6 @@ def add(a, b):
     Args: a - first integer
           b - second integer
 
-   Return: value a + b
-   """
-   return (a + b)
+    Return: value a + b
+    """
+    return (a + b)
