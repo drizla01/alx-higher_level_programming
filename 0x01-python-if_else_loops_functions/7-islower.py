@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 def islower(c):
-    for c in range(chr(), chr(123)):
+    if ord(c) >= 98 and ord(c) <= 122:
         return True
     return False
