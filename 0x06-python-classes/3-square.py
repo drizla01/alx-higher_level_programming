@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A module for working with squares.
+"""A module for working with square.
 """
 
 
