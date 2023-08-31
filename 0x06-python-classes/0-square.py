@@ -4,6 +4,6 @@
 
 
 class Square:
-    """An emplty class
+    """An empty class
     """
     pass
