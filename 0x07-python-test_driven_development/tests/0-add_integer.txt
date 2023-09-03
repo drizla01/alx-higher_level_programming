@@ -1,16 +1,36 @@
-#!/usr/bin/python3
-def add_integer(a, b=98):    
+"""
+Module for adding two integers using the "0-add_integer" module.
 
-
-    """ Return the sum of integer
- 
-    >>> print(add_integer(1, 2))
-    3
-    >>> print(add_intger(4, "School"))
-    b must be integer
-    """
-    if a is not (int or float):
-        TypeError("a must be integer")
-    if b is not (int or float):
-        TypeError("b must be integer")
-    return (int(a + b))
+Import "add_integer" from the "0-add_integer" module.
+add_integer - execute the addition of the two integers or floats.
+Paramaters:
+    a: first integer or float
+    b: second integer or float
+Return:
+    The sum of the two integers or floats.
+"""
+>>> add_integer = __import__('0-add_integer').add_integer
+>>> add_integer(1, 2)
+3
+>>> add_integer(-5, 5)
+0
+>>> add_integer(0, 0)
+0
+>>> add_integer(100.3, -2)
+98
+>>> add_integer(None)
+TypeError('a must be an integer)
+>>> add_integer(a, "School")
+TypeError('b must be an integer')
+>>> add_integer(6, 6, 6)
+Traceback (most recent call last):
+    ...
+TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
+>>> add_integer("a", "b")
+TypeError('a must be an integer')
+>>> add_integer(3.4, 3.6)
+7
+>>> add_integer()
+Traceback (most recent call last):
+    ...
+TypeError: add_integer() missing 1 required positional argument: 'a'
