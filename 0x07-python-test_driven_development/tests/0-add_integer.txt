@@ -1,1 +1,16 @@
-from 0-add_integer import add_integer
+#!/usr/bin/python3
+def add_integer(a, b=98):    
+
+
+    """ Return the sum of integer
+ 
+    >>> print(add_integer(1, 2))
+    3
+    >>> print(add_intger(4, "School"))
+    b must be integer
+    """
+    if a is not (int or float):
+        TypeError("a must be integer")
+    if b is not (int or float):
+        TypeError("b must be integer")
+    return (int(a + b))
