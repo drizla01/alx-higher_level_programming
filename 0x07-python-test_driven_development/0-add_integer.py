@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-A module that summ two numbers
+A module that sum two numbers
 """
 
 
