@@ -2,6 +2,8 @@
 """
 import modules
 """
+
+
 class Rectangle:
     """
     An empty class that define a rectangle
