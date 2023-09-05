@@ -2,6 +2,8 @@
 """
 A function that divide all elements of a matrix
 """
+
+
 def matrix_divided(matrix, div):
     """ divide all elements of a matrix
 

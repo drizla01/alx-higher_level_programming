@@ -2,6 +2,8 @@
 """
 A function that prints My name is <first name> <last name>
 """
+
+
 def say_my_name(first_name, last_name=""):
     """
     print the first and last name of a person
