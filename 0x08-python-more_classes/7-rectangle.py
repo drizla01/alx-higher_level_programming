@@ -97,7 +97,9 @@ class Rectangle:
             s = str(self.print_symbol)
             w = self.width
             h = self.height
-            result = list(map(lambda x: (s * w) + ('\n' * (x != h - 1)), range(h)))
+            result = list(map(
+                lambda x: (s * w) + ('\n' * (x != h - 1)), range(h))
+                    )
             return ''.join(result)
 
     def __repr__(self):
