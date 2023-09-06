@@ -1,4 +1,4 @@
-# Higher-Level Programming - Linux, Systems Engineering, Python, C, JavaScript & Data Structures
+# Higher-Level Programming - Linux, Systems Engineering, Python, C & Data Structures
 
 ## Description
 This repository contains programs written for the higher-level programming and
