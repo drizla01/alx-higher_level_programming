@@ -23,9 +23,9 @@ class Rectangle:
         """
         Retrieve the width of the rectangle
         Return:
-            int: width of the rectangle 
+            int: width of the rectangle
         """
-        return self.__width        
+        return self.__width 
 
     @property
     def height(self):
