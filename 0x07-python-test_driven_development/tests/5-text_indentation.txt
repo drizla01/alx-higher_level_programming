@@ -24,7 +24,7 @@ simply because it is pain?
 Is there anyone
 who loves pain itself?
 <BLANKLINE>
->>> text_indentation('\nIs there any.?\none \n\t\t  who loves pain itself?')
+>>> text_indentation('\nIs there any.?\n one \n\t\t  who loves pain itself?')
 <BLANKLINE>
 Is there any.
 <BLANKLINE>
