@@ -1,5 +1,6 @@
-0x0A. Python - Inheritance
-`Python` `OOP` `Inheritance`
+# 0x0A. Python - Inheritance
+
+## `Python` `OOP` `Inheritance`
 ==========================
 
 -   By Guillaume
