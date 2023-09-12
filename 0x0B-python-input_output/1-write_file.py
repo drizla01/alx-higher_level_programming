@@ -4,5 +4,8 @@
 
 
 def write_file(filename="", text=""):
-    with open(filename, encoding="utf-8", mode="a") as f:
-        f.write(text)
+    """Write a UTF-8 encoded text to a file."""
+    numb = 0
+    with open(filename, encoding="utf-8", mode="w") as f:
+        numb = f.write(text)
+        return numb
