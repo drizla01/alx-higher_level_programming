@@ -4,8 +4,8 @@
 
 
 class Square:
-    """Represents a 2D Polygon with 4 equal and perpendicular sides.
-    """
+    """Represents a 2D Polygon with 4 equal and perpendicular sides."""
+
     def __init__(self, size):
         """Initializes a Square with a given size.
 
@@ -13,4 +13,4 @@ class Square:
             size (int): The size of the square.
         """
         super().__init__()
-        self.__size = size
+        self.size = size

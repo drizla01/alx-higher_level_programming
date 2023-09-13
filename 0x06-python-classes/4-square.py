@@ -4,8 +4,8 @@
 
 
 class Square:
-    """Represents a 2D Polygon with 4 equal and perpendicular sides.
-    """
+    """Represents a 2D Polygon with 4 equal and perpendicular sides."""
+
     def __init__(self, size=0):
         """Initializes a Square with a given size.
 
@@ -31,12 +31,12 @@ class Square:
             value (int): The new size of this Square.
         """
         if not isinstance(value, int):
-            raise TypeError('size must be an integer')
+            raise TypeError("size must be an integer")
         else:
             if value < 0:
-                raise ValueError('size must be >= 0')
+                raise ValueError("size must be >= 0")
             else:
-                self.__size = value
+                self._size = value
 
     def area(self):
         """Computes the area of this Square.
@@ -44,4 +44,4 @@ class Square:
         Returns:
             int: The area of this Square.
         """
-        return self.size ** 2
+        return self.size**2
